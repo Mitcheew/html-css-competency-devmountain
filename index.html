@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- 54I - 1 -->
+<html lang="en">
+<!-- 54I-2 -->
+
+<head>
+    <meta charset="UTF-8">
+    <!-- 58G -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- 58D -->
+    <meta name="description" content="The best website ever.">
+    <!-- 58E -->
+    <meta name="keywords" content="Unicorns, fairies, pikachu, Overwatch">
+    <meta name="author" content="Ethan Mitchell">
+    <!-- 54H -->
+    <link type="text/css" rel="stylesheet" href="./reset.css" />
+    <link type="text/css" rel="stylesheet" href="./main.css" />
+    <!-- 58C -->
+    <title>Ethan's web site</title>
+</head>
+<!-- 54I-3 -->
+
+<body>
+    <!-- 54C-3 54J -->
+    <div class="container">
+        <header class="header">
+            <!-- 54F-1 -->
+            <h1>Hello World!</h1>
+        </header>
+        <!-- 54D-2 -->
+        <section class="content">
+            <h2>content header</h2>
+            <a href="./surprised_pikachu.jpg">
+                <!-- 54G 54E-2 59E 54J -->
+                <img src="./surprised_pikachu.jpg" alt="its a Pikachu from pokemon" />
+            </a>
+            <!-- 54D-1 -->
+            <article>
+                <blockquote>
+                    <!-- 54C-1 -->
+                    <p>This is a paragraph, here are some of my favorite things: </p>
+                    <!-- 54E-1 54J -->
+                    <ul id="list">
+                        <li>cookies</li>
+                        <li>milk</li>
+                        <li>cheese</li>
+                        <li>mexican food</li>
+                        <li>mexican food</li>
+                    </ul>
+                    <p id="result"></p>
+                    <!-- 61C -->
+                    <script>
+                        let element = document.getElementsByTagName('li').length
+                        document.getElementById("result").innerHTML = "No: of items in list = " + element 
+                    </script>
+                </blockquote>
+                <!-- 54F-2 -->
+                <h2>Widow 6k</h2>
+                <!-- 54C-2 -->
+                <span id="media">
+                    <!-- 56C -->
+                    <video controls src="./vidya.mp4" padding="0" width="560" height="315"></video>
+                    <!-- 56D -->
+                    <audio controls src="./vidya.mp4">this</audio>
+                </span>
+
+            </article>
+
+        </section>
+        <!-- 54D-3 -->
+        <footer>Copyright 2018 Ethan Mitchell</footer>
+    </div>
+</body>
+
+</html>

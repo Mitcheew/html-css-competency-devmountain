@@ -1,0 +1,119 @@
+body {
+    /* 23E */
+    background-color: rgba(179, 107, 0, 0.411)
+}
+/* 22C-2 */
+.container {
+    /* 25C-1 */
+    position: relative;
+    width: 50%;
+    min-width:500px;
+    /* 24C */
+    margin: 0 auto;
+    /* 24D */
+    border: 1px solid black;
+}
+/* 22C-3 */
+img[src$=".jpg"] {
+    max-width: 300px;
+    margin: 0 auto;
+    border-radius: 20%;
+}
+/* 26H */
+img[src$=".jpg"]:hover {
+    animation: dance 2s infinite;
+    border-radius: 100%;
+    /* 28D */
+    transition: 1s border-radius;
+}
+/* 28C */
+@keyframes dance {
+    /* 28E */
+    0%   {transform: rotateY(0deg)}
+    25%  {transform: rotateY(180deg)}
+    50% {transform: rotateZ(180deg);}
+    75%  {transform: rotateZ(0deg)}
+
+}
+/* 22C-5 */
+p + ul {
+    background: rgba(100, 60, 0, 0.486)
+}
+.header {
+    /* 23F */
+    background-image: url(https://img-aws.ehowcdn.com/877x500p/s3-us-west-1.amazonaws.com/contentlab.studiod/getty/f24b4a7bf9f24d1ba5f899339e6949f3);
+    background-size: cover;
+    height: 100px;
+    width: 50%;
+    min-width: 500px;
+    /* 25C-3 */
+    position: fixed;
+    top: 0;
+}
+.content {
+    margin: 100px 0 auto;
+}
+h1 {
+    /* 23D-3 */
+    font-size: 36px;
+    /* 23D-1 */
+    font-weight: bold;
+    /* 23D-2 */
+    color: rgba(192, 0, 0, 0.719);
+    /* 30D */
+    background: linear-gradient(to right, yellow, rgba(192, 0, 0, 0.719));
+    /* 30E */
+    text-shadow: 2px 2px 3px black;
+    
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+/* 22C-1 */
+#list {
+    margin-left: 20px;
+    list-style-type: circle;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: flex-start;
+}
+/* 22C-4 */
+#list > li {
+    text-decoration: underline;
+    font-weight: bold;
+}
+blockquote {
+    margin-left: 25px;
+}
+video {
+    border: none;
+    /* 24E */
+    padding: 0;
+    /* 24C */
+    margin: 10px auto;
+    /* 30C */
+    box-shadow: 5px 5px 5px rgba(100, 60, 0, 0.486);
+    /* 24F */
+    box-sizing: border-box;
+}
+audio {
+    /* 25D */
+    float: left;
+    margin-left: 20px;
+    /* 25C-2 */
+    position: absolute;
+    bottom: -55px;
+}
+#media, img{
+    /* 27C 27D 27E 27F 27G 25F */
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: flex-start;
+}
